@@ -1,0 +1,30 @@
+{
+  "name": "match-media",
+  "version": "0.0.1",
+  "description": "Polyfill for matchMedia, script to allow interchange functionality",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "media",
+    "query",
+    "match",
+    "interchange"
+  ],
+  "author": "Juan Orozco <hi@juanorozco.com> (http://juanorozco.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "can": "^2.3.15",
+    "debug": "^2.2.0",
+    "mocha": "^2.4.5",
+    "steal": "^0.13.2",
+    "steal-mocha": "0.0.3",
+    "steal-tools": "^0.13.3",
+    "testee": "^0.2.5",
+    "xo": "^0.12.1"
+  }
+}

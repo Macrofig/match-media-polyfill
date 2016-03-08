@@ -1,4 +1,4 @@
-import './src/data-interchange.attr.js';
-import MatchMedia from './src/MatchMedia.polyfill.js';
+import './src/data-interchange.attr';
+import MatchMedia from './src/MatchMedia.polyfill';
 
 export default MatchMedia;

@@ -1,14 +1,22 @@
 {
-  "name": "match-media",
+  "name": "can-interchange",
   "version": "0.0.1",
-  "description": "Polyfill for matchMedia, script to allow interchange functionality",
+  "description": "A clone of Foundation's interchange component using CanJS's can.view.attr.",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "lint": "xo",
-    "test": "npm run lint && mocha"
+    "test": "npm run lint && mocha",
+    "build": "node ./steal-build.js",
+    "develop": "http-server -p 3000 -c-1 -o",
+    "docs": "documentjs",
+    "prepublish": "npm run build",
+    "publish": "git push origin --tags",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish"
   },
   "keywords": [
     "media",

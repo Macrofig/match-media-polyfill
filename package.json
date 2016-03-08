@@ -1,6 +1,6 @@
 {
   "name": "can-interchange",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A clone of Foundation's interchange component using CanJS's can.view.attr.",
   "main": "index.js",
   "directories": {

@@ -1,8 +1,13 @@
 import 'chai';
 import 'steal-mocha';
 var expect = chai.expect;
-describe('data-interchange', function(){
-    it('test', function(){
-        expect("yay!").to.equal('yay!');
+
+//import {attrHandler, mediaHandler, handleSource} from '../../src/data-interchange.attr';
+
+describe('data-interchange', function () {
+    describe('attrHandler', function () {
+        it('test', function () {
+            expect('yay!').to.equal('yay!');
+        });
     });
 });

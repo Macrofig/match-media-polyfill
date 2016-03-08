@@ -1,5 +1,6 @@
+// WIP
 import can from 'can';
-import MediaQueryList from '../MediaQueryList.map.js';
+import MediaQueryList from './MediaQueryList.map';
 
 var MatchMedia = can.Construct.extend({
     init: function (query) {
@@ -19,7 +20,9 @@ var MatchMedia = can.Construct.extend({
     },
     one: function (query) {
         // Check query for matches
-        return;
+        if (query) {
+            return;
+        }
     },
     register: function () {},
     trigger: function (match, event) {
@@ -27,3 +30,5 @@ var MatchMedia = can.Construct.extend({
         match.callback(event);
     }
 });
+
+export default MatchMedia;
